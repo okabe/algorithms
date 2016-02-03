@@ -5,7 +5,7 @@
 import sys
 
 n = int( sys.argv[1] )
-i = 7
+i = 5
 isprime = True
 
 #avoid dropping into loop
@@ -15,8 +15,8 @@ if n <= 1:
 elif n <= 3:
     print "{} is prime".format( str( n ) )
     isprime = False
-elif n % 2 == 0 or n % 3 == 0 or n % 5 == 0 or n % 7 == 0:
-    print "{} is divisible by 2, 3, 5, or 7, not prime".format( str( n ) )
+elif n % 2 == 0 or n % 3 == 0:
+    print "{} is divisible by 2, 3, not prime".format( str( n ) )
     isprime = False
 else:
     while i <= ( n / 2 ):
