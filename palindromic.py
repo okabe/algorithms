@@ -1,7 +1,6 @@
 #!/bin/env python2
 #author: mp
 #comment: check if sys.argv[1] is a palindromic number
-
 import sys
 
 n = int( sys.argv[1] )
