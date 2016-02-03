@@ -1,7 +1,8 @@
 #!/bin/env python2
 #author: mp
 #comment: delegate a set of items amongst a set of receivers where sys.argv[1]
-#         is the number of items and sys.argv[2] the number of recievers
+#         is the number of items and sys.argv[2] the number of recievers.. I
+#         called it round robin because im unaware of a formal name
 
 import sys
 
