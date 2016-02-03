@@ -1,2 +1,2 @@
 # Algorithms
-wrote these to resolve bordem and learn about math
+these are mostly for learning, however some have been derived from other programs ive written
