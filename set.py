@@ -1,5 +1,17 @@
 #!/usr/bin/env python2
 
+"""
+example of Georg Cantors infinite set theory
+
+if you have a single line segment, in this example starting at 0.0 and ending at 1.0
+then if you remove the center 3rd of the line, you have 2 lines left 0.0 -> 0.33, and
+0.66 -> 1.0. if you continue to remove the center third of every line left over in an
+infinite loop, the total removed length of the line will exceed the original length of
+the whole line. this shows that you can have different sizes of infinity.
+
+careful, this script can exhaust your system memory
+"""
+
 lengths = [ 1.0 ]
 newlengths = []
 removed_sum = 0.0
